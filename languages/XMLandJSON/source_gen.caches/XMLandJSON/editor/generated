@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="-bca26z0rvog5rjtbauojxwkh5k17sfg">
+  <files names="Convertor_Editor.java:Convertor_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:JSONAttribute_Editor.java:JSONAttribute_EditorBuilder_a.java:JSONElement_Editor.java:JSONElement_EditorBuilder_a.java:JSONField_Editor.java:JSONField_EditorBuilder_a.java:JSON_Editor.java:JSON_EditorBuilder_a.java:XMLAttribute_Editor.java:XMLAttribute_EditorBuilder_a.java:XMLElement_Editor.java:XMLElement_EditorBuilder_a.java:XMLField_Editor.java:XMLField_EditorBuilder_a.java:XML_Editor.java:XML_EditorBuilder_a.java:generate_json.java" />
+</product>
+

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TypesystemDescriptor.java">
+      <unit at="8,0,24,0" name="XMLandJSON.typesystem.TypesystemDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:73577531-c3a6-480c-8444-5713fdd79d44(XMLandJSON.typesystem)/6376684244688491795">
+    <file name="TypesystemDescriptor.java">
+      <node id="6376684244688491795" at="14,5,15,93" concept="6" />
+      <node id="6376684244688491795" at="15,93,16,55" concept="2" />
+      <node id="6376684244688491795" at="13,5,17,5" concept="0" />
+      <scope id="6376684244688491795" at="14,5,16,55">
+        <var name="nonTypesystemRule" id="6376684244688491795" />
+      </scope>
+    </file>
+    <file name="check_XMLElement_NonTypesystemRule.java">
+      <node id="7318856572702995282" at="27,7,28,66" concept="6" />
+      <node id="7318856572702995282" at="28,66,29,239" concept="6" />
+      <node id="7318856572702484188" at="33,7,34,66" concept="6" />
+      <node id="7318856572702484188" at="34,66,35,254" concept="6" />
+      <node id="7318856572704135322" at="39,7,40,66" concept="6" />
+      <node id="7318856572704135322" at="40,66,41,247" concept="6" />
+      <node id="961444738999139702" at="45,69,46,35" concept="6" />
+      <node id="961444738999175895" at="48,11,49,70" concept="6" />
+      <node id="961444738999175895" at="49,70,50,273" concept="6" />
+      <node id="6376684244688491795" at="56,50,57,34" concept="7" />
+      <node id="6376684244688491795" at="59,68,60,102" concept="7" />
+      <node id="6376684244688491795" at="62,30,63,17" concept="7" />
+      <node id="7318856572702989098" at="65,52,66,40" concept="7" />
+      <node id="6376684244688491795" at="70,0,71,0" concept="9" trace="name$MnvL" />
+      <node id="6376684244688491795" at="74,0,75,0" concept="9" trace="XMLElement$5e" />
+      <node id="6376684244688491795" at="75,0,76,0" concept="9" trace="XML$U5" />
+      <node id="6376684244688491795" at="79,0,80,0" concept="9" trace="elements$YyrS" />
+      <node id="6376684244688491795" at="23,0,25,0" concept="1" trace="check_XMLElement_NonTypesystemRule#()V" />
+      <node id="6376684244688491795" at="56,0,59,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="6376684244688491795" at="59,0,62,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="6376684244688491795" at="62,0,65,0" concept="5" trace="overrides#()Z" />
+      <node id="7318856572702989098" at="65,0,68,0" concept="10" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="7318856572702995282" at="26,84,30,7" concept="0" />
+      <node id="7318856572702484188" at="32,83,36,7" concept="0" />
+      <node id="7318856572704135322" at="38,95,42,7" concept="0" />
+      <node id="961444738999175895" at="47,165,51,11" concept="0" />
+      <node id="7318856572702961163" at="25,123,31,5" concept="4" />
+      <node id="7318856572702431664" at="31,5,37,5" concept="4" />
+      <node id="7318856572704135320" at="37,5,43,5" concept="4" />
+      <node id="961444738999140643" at="46,35,52,9" concept="4" />
+      <node id="961444738999137264" at="44,147,53,7" concept="4" />
+      <node id="961444738999111238" at="43,5,54,5" concept="3" />
+      <node id="6376684244688491795" at="25,0,56,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="6376684244688491795" at="23,47,23,47" />
+      <scope id="6376684244688491795" at="56,50,57,34" />
+      <scope id="6376684244688491795" at="59,68,60,102" />
+      <scope id="6376684244688491795" at="62,30,63,17" />
+      <scope id="7318856572702989098" at="65,52,66,40" />
+      <scope id="6376684244688491795" at="23,0,25,0" />
+      <scope id="7318856572702995282" at="27,7,29,239">
+        <var name="_reporter_2309309498" id="7318856572702995282" />
+        <var name="errorTarget" id="7318856572702995282" />
+      </scope>
+      <scope id="7318856572702484188" at="33,7,35,254">
+        <var name="_reporter_2309309498" id="7318856572702484188" />
+        <var name="errorTarget" id="7318856572702484188" />
+      </scope>
+      <scope id="7318856572704135322" at="39,7,41,247">
+        <var name="_reporter_2309309498" id="7318856572704135322" />
+        <var name="errorTarget" id="7318856572704135322" />
+      </scope>
+      <scope id="961444738999175895" at="48,11,50,273">
+        <var name="_reporter_2309309498" id="961444738999175895" />
+        <var name="errorTarget" id="961444738999175895" />
+      </scope>
+      <scope id="6376684244688491795" at="56,0,59,0" />
+      <scope id="6376684244688491795" at="59,0,62,0">
+        <var name="argument" id="6376684244688491795" />
+      </scope>
+      <scope id="6376684244688491795" at="62,0,65,0" />
+      <scope id="7318856572702989098" at="65,0,68,0">
+        <var name="str" id="7318856572702989098" />
+      </scope>
+      <scope id="7318856572702961165" at="26,84,30,7" />
+      <scope id="7318856572702431666" at="32,83,36,7" />
+      <scope id="7318856572704135321" at="38,95,42,7" />
+      <scope id="961444738999140645" at="47,165,51,11" />
+      <scope id="961444738999137266" at="45,69,52,9">
+        <var name="node_el" id="961444738999139705" />
+      </scope>
+      <scope id="961444738999111240" at="44,147,53,7" />
+      <scope id="961444738999111238" at="43,5,54,5">
+        <var name="el" id="961444738999111241" />
+      </scope>
+      <scope id="6376684244688491796" at="25,123,54,5" />
+      <scope id="6376684244688491795" at="25,0,56,0">
+        <var name="status" id="6376684244688491795" />
+        <var name="typeCheckingContext" id="6376684244688491795" />
+        <var name="xmlElement" id="6376684244688491795" />
+      </scope>
+      <unit id="6376684244688491795" at="69,0,72,0" name="XMLandJSON.typesystem.check_XMLElement_NonTypesystemRule$PROPS" />
+      <unit id="6376684244688491795" at="78,0,81,0" name="XMLandJSON.typesystem.check_XMLElement_NonTypesystemRule$LINKS" />
+      <unit id="6376684244688491795" at="73,0,77,0" name="XMLandJSON.typesystem.check_XMLElement_NonTypesystemRule$CONCEPTS" />
+      <unit id="6376684244688491795" at="22,0,82,0" name="XMLandJSON.typesystem.check_XMLElement_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:73577531-c3a6-480c-8444-5713fdd79d44(XMLandJSON.typesystem)/7318856572702773831">
+    <file name="TypesystemDescriptor.java">
+      <node id="7318856572702773831" at="10,5,11,95" concept="6" />
+      <node id="7318856572702773831" at="11,95,12,55" concept="2" />
+      <node id="7318856572702773831" at="9,33,13,5" concept="0" />
+      <scope id="7318856572702773831" at="10,5,12,55">
+        <var name="nonTypesystemRule" id="7318856572702773831" />
+      </scope>
+    </file>
+    <file name="check_XMLAttribute_NonTypesystemRule.java">
+      <node id="7318856572703007730" at="24,7,25,66" concept="6" />
+      <node id="7318856572703007730" at="25,66,26,244" concept="6" />
+      <node id="7318856572702786320" at="30,7,31,66" concept="6" />
+      <node id="7318856572702786320" at="31,66,32,258" concept="6" />
+      <node id="7318856572704531238" at="36,7,37,66" concept="6" />
+      <node id="7318856572704531238" at="37,66,38,251" concept="6" />
+      <node id="7318856572704171022" at="40,5,41,0" concept="8" />
+      <node id="7318856572702773831" at="43,50,44,36" concept="7" />
+      <node id="7318856572702773831" at="46,68,47,102" concept="7" />
+      <node id="7318856572702773831" at="49,30,50,17" concept="7" />
+      <node id="7318856572703007651" at="52,52,53,40" concept="7" />
+      <node id="7318856572702773831" at="57,0,58,0" concept="9" trace="name$MnvL" />
+      <node id="7318856572702773831" at="61,0,62,0" concept="9" trace="XMLAttribute$4J" />
+      <node id="7318856572702773831" at="20,0,22,0" concept="1" trace="check_XMLAttribute_NonTypesystemRule#()V" />
+      <node id="7318856572702773831" at="43,0,46,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7318856572702773831" at="46,0,49,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7318856572702773831" at="49,0,52,0" concept="5" trace="overrides#()Z" />
+      <node id="7318856572703007651" at="52,0,55,0" concept="10" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="7318856572703007730" at="23,86,27,7" concept="0" />
+      <node id="7318856572702786320" at="29,85,33,7" concept="0" />
+      <node id="7318856572704531238" at="35,97,39,7" concept="0" />
+      <node id="7318856572703002003" at="22,125,28,5" concept="4" />
+      <node id="7318856572702773838" at="28,5,34,5" concept="4" />
+      <node id="7318856572704531236" at="34,5,40,5" concept="4" />
+      <node id="7318856572702773831" at="22,0,43,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7318856572702773831" at="20,49,20,49" />
+      <scope id="7318856572702773831" at="43,50,44,36" />
+      <scope id="7318856572702773831" at="46,68,47,102" />
+      <scope id="7318856572702773831" at="49,30,50,17" />
+      <scope id="7318856572703007651" at="52,52,53,40" />
+      <scope id="7318856572702773831" at="20,0,22,0" />
+      <scope id="7318856572703007730" at="24,7,26,244">
+        <var name="_reporter_2309309498" id="7318856572703007730" />
+        <var name="errorTarget" id="7318856572703007730" />
+      </scope>
+      <scope id="7318856572702786320" at="30,7,32,258">
+        <var name="_reporter_2309309498" id="7318856572702786320" />
+        <var name="errorTarget" id="7318856572702786320" />
+      </scope>
+      <scope id="7318856572704531238" at="36,7,38,251">
+        <var name="_reporter_2309309498" id="7318856572704531238" />
+        <var name="errorTarget" id="7318856572704531238" />
+      </scope>
+      <scope id="7318856572702773831" at="43,0,46,0" />
+      <scope id="7318856572702773831" at="46,0,49,0">
+        <var name="argument" id="7318856572702773831" />
+      </scope>
+      <scope id="7318856572702773831" at="49,0,52,0" />
+      <scope id="7318856572703007651" at="52,0,55,0">
+        <var name="str" id="7318856572703007651" />
+      </scope>
+      <scope id="7318856572703002005" at="23,86,27,7" />
+      <scope id="7318856572702773840" at="29,85,33,7" />
+      <scope id="7318856572704531237" at="35,97,39,7" />
+      <scope id="7318856572702773832" at="22,125,41,0" />
+      <scope id="7318856572702773831" at="22,0,43,0">
+        <var name="status" id="7318856572702773831" />
+        <var name="typeCheckingContext" id="7318856572702773831" />
+        <var name="xmlAttribute" id="7318856572702773831" />
+      </scope>
+      <unit id="7318856572702773831" at="56,0,59,0" name="XMLandJSON.typesystem.check_XMLAttribute_NonTypesystemRule$PROPS" />
+      <unit id="7318856572702773831" at="60,0,63,0" name="XMLandJSON.typesystem.check_XMLAttribute_NonTypesystemRule$CONCEPTS" />
+      <unit id="7318856572702773831" at="19,0,64,0" name="XMLandJSON.typesystem.check_XMLAttribute_NonTypesystemRule" />
+    </file>
+  </root>
+  <root nodeRef="r:73577531-c3a6-480c-8444-5713fdd79d44(XMLandJSON.typesystem)/7318856572702786524">
+    <file name="TypesystemDescriptor.java">
+      <node id="7318856572702786524" at="18,5,19,91" concept="6" />
+      <node id="7318856572702786524" at="19,91,20,55" concept="2" />
+      <node id="7318856572702786524" at="17,5,21,5" concept="0" />
+      <scope id="7318856572702786524" at="18,5,20,55">
+        <var name="nonTypesystemRule" id="7318856572702786524" />
+      </scope>
+    </file>
+    <file name="check_XMLField_NonTypesystemRule.java">
+      <node id="7318856572702948333" at="24,7,25,66" concept="6" />
+      <node id="7318856572702948333" at="25,66,26,236" concept="6" />
+      <node id="7318856572702798888" at="30,7,31,66" concept="6" />
+      <node id="7318856572702798888" at="31,66,32,250" concept="6" />
+      <node id="7318856572704533920" at="36,7,37,66" concept="6" />
+      <node id="7318856572704533920" at="37,66,38,243" concept="6" />
+      <node id="7318856572704533839" at="40,5,41,0" concept="8" />
+      <node id="7318856572702786524" at="43,50,44,32" concept="7" />
+      <node id="7318856572702786524" at="46,68,47,102" concept="7" />
+      <node id="7318856572702786524" at="49,30,50,17" concept="7" />
+      <node id="7318856572702948165" at="52,52,53,40" concept="7" />
+      <node id="7318856572702786524" at="57,0,58,0" concept="9" trace="name$MnvL" />
+      <node id="7318856572702786524" at="61,0,62,0" concept="9" trace="XMLField$IQ" />
+      <node id="7318856572702786524" at="20,0,22,0" concept="1" trace="check_XMLField_NonTypesystemRule#()V" />
+      <node id="7318856572702786524" at="43,0,46,0" concept="5" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="7318856572702786524" at="46,0,49,0" concept="5" trace="isApplicableAndPattern#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;" />
+      <node id="7318856572702786524" at="49,0,52,0" concept="5" trace="overrides#()Z" />
+      <node id="7318856572702948165" at="52,0,55,0" concept="10" trace="isEmptyString#(Ljava/lang/String;)Z" />
+      <node id="7318856572702948333" at="23,82,27,7" concept="0" />
+      <node id="7318856572702798888" at="29,81,33,7" concept="0" />
+      <node id="7318856572704533920" at="35,93,39,7" concept="0" />
+      <node id="7318856572702941466" at="22,121,28,5" concept="4" />
+      <node id="7318856572702786531" at="28,5,34,5" concept="4" />
+      <node id="7318856572704533918" at="34,5,40,5" concept="4" />
+      <node id="7318856572702786524" at="22,0,43,0" concept="5" trace="applyRule#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/typesystem/inference/TypeCheckingContext;Ljetbrains/mps/lang/typesystem/runtime/IsApplicableStatus;)V" />
+      <scope id="7318856572702786524" at="20,45,20,45" />
+      <scope id="7318856572702786524" at="43,50,44,32" />
+      <scope id="7318856572702786524" at="46,68,47,102" />
+      <scope id="7318856572702786524" at="49,30,50,17" />
+      <scope id="7318856572702948165" at="52,52,53,40" />
+      <scope id="7318856572702786524" at="20,0,22,0" />
+      <scope id="7318856572702948333" at="24,7,26,236">
+        <var name="_reporter_2309309498" id="7318856572702948333" />
+        <var name="errorTarget" id="7318856572702948333" />
+      </scope>
+      <scope id="7318856572702798888" at="30,7,32,250">
+        <var name="_reporter_2309309498" id="7318856572702798888" />
+        <var name="errorTarget" id="7318856572702798888" />
+      </scope>
+      <scope id="7318856572704533920" at="36,7,38,243">
+        <var name="_reporter_2309309498" id="7318856572704533920" />
+        <var name="errorTarget" id="7318856572704533920" />
+      </scope>
+      <scope id="7318856572702786524" at="43,0,46,0" />
+      <scope id="7318856572702786524" at="46,0,49,0">
+        <var name="argument" id="7318856572702786524" />
+      </scope>
+      <scope id="7318856572702786524" at="49,0,52,0" />
+      <scope id="7318856572702948165" at="52,0,55,0">
+        <var name="str" id="7318856572702948165" />
+      </scope>
+      <scope id="7318856572702941468" at="23,82,27,7" />
+      <scope id="7318856572702786533" at="29,81,33,7" />
+      <scope id="7318856572704533919" at="35,93,39,7" />
+      <scope id="7318856572702786525" at="22,121,41,0" />
+      <scope id="7318856572702786524" at="22,0,43,0">
+        <var name="status" id="7318856572702786524" />
+        <var name="typeCheckingContext" id="7318856572702786524" />
+        <var name="xmlField" id="7318856572702786524" />
+      </scope>
+      <unit id="7318856572702786524" at="56,0,59,0" name="XMLandJSON.typesystem.check_XMLField_NonTypesystemRule$PROPS" />
+      <unit id="7318856572702786524" at="60,0,63,0" name="XMLandJSON.typesystem.check_XMLField_NonTypesystemRule$CONCEPTS" />
+      <unit id="7318856572702786524" at="19,0,64,0" name="XMLandJSON.typesystem.check_XMLField_NonTypesystemRule" />
+    </file>
+  </root>
+</debug-info>
+

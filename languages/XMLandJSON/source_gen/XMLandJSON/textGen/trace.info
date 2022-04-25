@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="56,0,59,0" name="XMLandJSON.textGen.TextGenAspectDescriptor$CONCEPTS" />
+      <unit at="16,0,60,0" name="XMLandJSON.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c8926e02-8158-4778-a914-7560fc2ff6b5(XMLandJSON.textGen)/7318856572707333571">
+    <file name="Convertor_TextGen.java">
+      <node id="7318856572707333571" at="17,54,18,55" concept="5" />
+      <node id="7318856572707911609" at="18,55,19,25" concept="1" />
+      <node id="7318856572707911610" at="19,25,20,129" concept="1" />
+      <node id="7318856572707911614" at="20,129,21,23" concept="1" />
+      <node id="7318856572710275487" at="22,139,23,27" concept="1" />
+      <node id="7318856572707333571" at="28,0,29,0" concept="7" trace="XML$eoIT" />
+      <node id="7318856572707333571" at="29,0,30,0" concept="7" trace="elements$YyrS" />
+      <node id="7318856572707333571" at="33,0,34,0" concept="7" trace="name$MnvL" />
+      <node id="7318856572710275487" at="21,23,24,5" concept="2" />
+      <node id="7318856572707333571" at="16,0,26,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7318856572710275487" at="22,139,23,27" />
+      <scope id="7318856572710275487" at="21,23,24,5">
+        <var name="item" id="7318856572710275487" />
+      </scope>
+      <scope id="7318856572707333571" at="17,54,24,5">
+        <var name="tgs" id="7318856572707333571" />
+      </scope>
+      <scope id="7318856572707333571" at="16,0,26,0">
+        <var name="ctx" id="7318856572707333571" />
+      </scope>
+      <unit id="7318856572707333571" at="32,0,35,0" name="XMLandJSON.textGen.Convertor_TextGen$PROPS" />
+      <unit id="7318856572707333571" at="27,0,31,0" name="XMLandJSON.textGen.Convertor_TextGen$LINKS" />
+      <unit id="7318856572707333571" at="15,0,36,0" name="XMLandJSON.textGen.Convertor_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7318856572707333571" at="26,43,27,39" concept="6" />
+      <node id="7318856572707333571" at="41,60,42,51" concept="5" />
+      <node id="7318856572707333571" at="42,51,43,54" concept="5" />
+      <node id="7318856572707333571" at="43,54,44,84" concept="1" />
+      <node id="7318856572707333571" at="44,84,45,17" concept="0" />
+      <node id="7318856572707523048" at="49,59,50,28" concept="6" />
+      <node id="7318856572707334238" at="52,64,53,17" concept="6" />
+      <node id="7318856572707333571" at="49,0,52,0" concept="8" trace="getFileName_Convertor#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7318856572707333571" at="52,0,55,0" concept="8" trace="getFileExtension_Convertor#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7318856572707333571" at="40,58,46,7" concept="3" />
+      <scope id="7318856572707333571" at="26,43,27,39" />
+      <scope id="7318856572707333571" at="49,59,50,28" />
+      <scope id="7318856572707333571" at="52,64,53,17" />
+      <scope id="7318856572707333571" at="49,0,52,0">
+        <var name="node" id="7318856572707333571" />
+      </scope>
+      <scope id="7318856572707333571" at="52,0,55,0">
+        <var name="node" id="7318856572707333571" />
+      </scope>
+      <scope id="7318856572707333571" at="41,60,45,17">
+        <var name="ext" id="7318856572707333571" />
+        <var name="fname" id="7318856572707333571" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:c8926e02-8158-4778-a914-7560fc2ff6b5(XMLandJSON.textGen)/7318856572707523146">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7318856572707523146" at="30,44,31,40" concept="6" />
+      <scope id="7318856572707523146" at="30,44,31,40" />
+    </file>
+    <file name="XMLElement_TextGen.java">
+      <node id="7318856572707523146" at="17,54,18,55" concept="5" />
+      <node id="7318856572709729113" at="18,55,19,30" concept="1" />
+      <node id="7318856572707732543" at="19,30,20,86" concept="1" />
+      <node id="7318856572707734006" at="20,86,21,21" concept="1" />
+      <node id="7318856572707523146" at="21,21,22,44" concept="1" />
+      <node id="7318856572709729544" at="23,98,24,27" concept="1" />
+      <node id="7318856572707523146" at="25,5,26,44" concept="1" />
+      <node id="7318856572707523146" at="26,44,27,44" concept="1" />
+      <node id="7318856572709011062" at="28,94,29,27" concept="1" />
+      <node id="7318856572707523146" at="30,5,31,44" concept="1" />
+      <node id="7318856572708281870" at="31,44,32,23" concept="1" />
+      <node id="7318856572707523146" at="36,0,37,0" concept="7" trace="name$MnvL" />
+      <node id="7318856572707523146" at="40,0,41,0" concept="7" trace="attributes$vapk" />
+      <node id="7318856572707523146" at="41,0,42,0" concept="7" trace="fields$vaRm" />
+      <node id="7318856572709729544" at="22,44,25,5" concept="2" />
+      <node id="7318856572709011062" at="27,44,30,5" concept="2" />
+      <node id="7318856572707523146" at="16,0,34,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7318856572709729544" at="23,98,24,27" />
+      <scope id="7318856572709011062" at="28,94,29,27" />
+      <scope id="7318856572709729544" at="22,44,25,5">
+        <var name="item" id="7318856572709729544" />
+      </scope>
+      <scope id="7318856572709011062" at="27,44,30,5">
+        <var name="item" id="7318856572709011062" />
+      </scope>
+      <scope id="7318856572707523146" at="17,54,32,23">
+        <var name="tgs" id="7318856572707523146" />
+      </scope>
+      <scope id="7318856572707523146" at="16,0,34,0">
+        <var name="ctx" id="7318856572707523146" />
+      </scope>
+      <unit id="7318856572707523146" at="35,0,38,0" name="XMLandJSON.textGen.XMLElement_TextGen$PROPS" />
+      <unit id="7318856572707523146" at="39,0,43,0" name="XMLandJSON.textGen.XMLElement_TextGen$LINKS" />
+      <unit id="7318856572707523146" at="15,0,44,0" name="XMLandJSON.textGen.XMLElement_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:c8926e02-8158-4778-a914-7560fc2ff6b5(XMLandJSON.textGen)/7318856572707550219">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7318856572707550219" at="32,42,33,38" concept="6" />
+      <scope id="7318856572707550219" at="32,42,33,38" />
+    </file>
+    <file name="XMLField_TextGen.java">
+      <node id="7318856572707550219" at="17,54,18,55" concept="5" />
+      <node id="7318856572709013186" at="18,55,19,17" concept="1" />
+      <node id="7318856572708100057" at="19,17,20,86" concept="1" />
+      <node id="7318856572708101535" at="20,86,21,21" concept="1" />
+      <node id="7318856572707550258" at="21,21,22,88" concept="1" />
+      <node id="7318856572709915742" at="22,88,23,21" concept="1" />
+      <node id="7318856572707550219" at="23,21,24,44" concept="1" />
+      <node id="7318856572709914244" at="25,98,26,27" concept="1" />
+      <node id="7318856572707550219" at="27,5,28,44" concept="1" />
+      <node id="7318856572707550219" at="32,0,33,0" concept="7" trace="name$MnvL" />
+      <node id="7318856572707550219" at="33,0,34,0" concept="7" trace="values$eBVZ" />
+      <node id="7318856572707550219" at="37,0,38,0" concept="7" trace="attributes$c8Rp" />
+      <node id="7318856572709914244" at="24,44,27,5" concept="2" />
+      <node id="7318856572707550219" at="16,0,30,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7318856572709914244" at="25,98,26,27" />
+      <scope id="7318856572709914244" at="24,44,27,5">
+        <var name="item" id="7318856572709914244" />
+      </scope>
+      <scope id="7318856572707550219" at="17,54,28,44">
+        <var name="tgs" id="7318856572707550219" />
+      </scope>
+      <scope id="7318856572707550219" at="16,0,30,0">
+        <var name="ctx" id="7318856572707550219" />
+      </scope>
+      <unit id="7318856572707550219" at="36,0,39,0" name="XMLandJSON.textGen.XMLField_TextGen$LINKS" />
+      <unit id="7318856572707550219" at="31,0,35,0" name="XMLandJSON.textGen.XMLField_TextGen$PROPS" />
+      <unit id="7318856572707550219" at="15,0,40,0" name="XMLandJSON.textGen.XMLField_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:c8926e02-8158-4778-a914-7560fc2ff6b5(XMLandJSON.textGen)/7318856572709732260">
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7318856572709732260" at="28,46,29,42" concept="6" />
+      <scope id="7318856572709732260" at="28,46,29,42" />
+    </file>
+    <file name="XMLAttribute_TextGen.java">
+      <node id="7318856572709732260" at="14,54,15,55" concept="5" />
+      <node id="7318856572709733033" at="15,55,16,17" concept="1" />
+      <node id="7318856572709733068" at="16,17,17,86" concept="1" />
+      <node id="7318856572709733072" at="17,86,18,21" concept="1" />
+      <node id="7318856572709733073" at="18,21,19,87" concept="1" />
+      <node id="7318856572710274030" at="19,87,20,21" concept="1" />
+      <node id="7318856572709732260" at="24,0,25,0" concept="7" trace="name$MnvL" />
+      <node id="7318856572709732260" at="25,0,26,0" concept="7" trace="value$R77m" />
+      <node id="7318856572709732260" at="13,0,22,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7318856572709732260" at="14,54,20,21">
+        <var name="tgs" id="7318856572709732260" />
+      </scope>
+      <scope id="7318856572709732260" at="13,0,22,0">
+        <var name="ctx" id="7318856572709732260" />
+      </scope>
+      <unit id="7318856572709732260" at="23,0,27,0" name="XMLandJSON.textGen.XMLAttribute_TextGen$PROPS" />
+      <unit id="7318856572709732260" at="12,0,28,0" name="XMLandJSON.textGen.XMLAttribute_TextGen" />
+    </file>
+  </root>
+</debug-info>
+
